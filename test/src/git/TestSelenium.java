@@ -17,7 +17,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class TestSelenium {
 	public static void main(String[] args) {
-		File file=new File("inputgit.csv");
+		File file=new File("d:\\TH\\inputgit.csv");
 		List<String> git=importCsv(file);
 		ArrayList<String> bool=new ArrayList<String>();
 		
